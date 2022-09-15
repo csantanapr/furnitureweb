@@ -3,6 +3,7 @@ import { useState, useEffect, useQuery } from "react";
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Button from "@mui/material/Button";
+// eslint-disable-next-line
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -19,8 +20,8 @@ import { Badge, Drawer } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 // import API from Amplify library
-import { API } from "aws-amplify";
-import { AmplifyS3Image } from "@aws-amplify/ui-react/legacy";
+//import { API } from "aws-amplify";
+//import { AmplifyS3Image } from "@aws-amplify/ui-react/legacy";
 
 // import query definition
 import { listFurnitures } from "./graphql/queries";
@@ -82,12 +83,13 @@ export default function App() {
     fetchFurnitures();
   }, []);
   async function fetchFurnitures() {
-    try {
+   /* try {
       const furnitureData = await API.graphql({ query: listFurnitures });
       setFurnitures(furnitureData.data.listFurnitures.items);
     } catch (err) {
       console.log({ err });
     }
+    */
   }
   return (
     <ThemeProvider theme={theme}>
