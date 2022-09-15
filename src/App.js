@@ -159,6 +159,7 @@ export default function App() {
           </Container>
         </Box>
         <Container sx={{ py: 8 }} maxWidth="md">
+          {/* 
           <Grid container spacing={4}>
             {furnitures.map((furniture) => (
               <Grid item key={furniture} xs={12} sm={6} md={4}>
@@ -193,6 +194,7 @@ export default function App() {
               </Grid>
             ))}
           </Grid>
+          */}  
         </Container>
       </main>
       {/* Footer */}
