@@ -97,7 +97,7 @@ export default function App() {
       <AppBar position="relative">
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            Enjoy Our New Site
+            AnyCompany Furniture Store
           </Typography>
           <Drawer
             anchor="right"
