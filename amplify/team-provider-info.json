@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-furnitureweb-dev-134516-authRole",
+      "UnauthRoleArn": "arn:aws:iam::846831725537:role/amplify-furnitureweb-dev-134516-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::846831725537:role/amplify-furnitureweb-dev-134516-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-furnitureweb-dev-134516-deployment",
+      "UnauthRoleName": "amplify-furnitureweb-dev-134516-unauthRole",
+      "StackName": "amplify-furnitureweb-dev-134516",
+      "StackId": "arn:aws:cloudformation:us-west-2:846831725537:stack/amplify-furnitureweb-dev-134516/23ddaa90-346e-11ed-bb55-069561e582a3",
+      "AmplifyAppId": "d2f5ae0989zvbu"
+    },
+    "categories": {
+      "auth": {
+        "furnitureweb": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2f5ae0989zvbu",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
